@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ASDec.iml" filepath="$PROJECT_DIR$/ASDec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libsrc/jpproxy/jpproxy.iml" filepath="$PROJECT_DIR$/libsrc/jpproxy/jpproxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libsrc/jsyntaxpane/jsyntaxpane/jsyntaxpane.iml" filepath="$PROJECT_DIR$/libsrc/jsyntaxpane/jsyntaxpane/jsyntaxpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpexs-decompiler-idea.iml" filepath="$PROJECT_DIR$/jpexs-decompiler-idea.iml" />
     </modules>
   </component>
 </project>
-
