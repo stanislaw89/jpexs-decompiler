@@ -2891,8 +2891,8 @@ public final class SWF implements SWFContainerItem, Timelined {
         }
 
         RECT rect = displayRect;
-        SerializableImage image = new SerializableImage((int) (rect.getWidth() * zoom / SWF.unitDivisor) + 1,
-                (int) (rect.getHeight() * zoom / SWF.unitDivisor) + 1, SerializableImage.TYPE_INT_ARGB_PRE);
+        SerializableImage image = new SerializableImage((int) (rect.getWidth() * zoom / SWF.unitDivisor),
+                (int) (rect.getHeight() * zoom / SWF.unitDivisor), SerializableImage.TYPE_INT_ARGB_PRE);
         if (backGroundColor == null) {
             image.fillTransparent();
         } else {
